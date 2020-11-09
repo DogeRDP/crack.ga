@@ -15,7 +15,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #262626;
+  background-color: #ffffff;
 }
 
 header {
@@ -63,11 +63,11 @@ header {
 
 .input:focus {
   outline: none;
-  border-bottom-color: #56BC58;
+  border-bottom-color: hsl(175, 94%, 50%);
 }
 
 .input::placeholder {
-  color: #ffffff;
+  color: #000000;
   opacity: 0.7;
 }
 
@@ -77,7 +77,7 @@ header {
   font-size: 1.15rem;
   color: #262626;
   border: none;
-  background-color: #56BC58;
+  background-color: #00f8cf;
   padding: 0.75em 1.25rem;
   box-shadow: 3px 3px 0 0 #ffffff;
   transition: box-shadow 0.2s ease-in-out;
